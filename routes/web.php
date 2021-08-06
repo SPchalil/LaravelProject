@@ -1,5 +1,7 @@
 <?php
-
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,9 +29,19 @@ Route::get('/about', function () {
     return view('pages.about');
 });
 
-*/
-
 Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
 
+*/
+
+
+Route::get('/', [ProductController::class, 'index'])->name('product.index');
+
+Route::get('/home/{name}', [HomeController::class, 'index'])->name('home.index'); 
+/*
+Route::get('/user', function () {
+    return view('user');
+});
+*/
+Route::get('/user', [UserController::class, 'index'])->name('user.index'); 
