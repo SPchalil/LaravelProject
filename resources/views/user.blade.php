@@ -11,7 +11,7 @@
         <style>
            body {
                 font-family: 'Nunito', sans-serif;
-                color: white;
+                color: black;
                 background-image: url('/images/muralArt.JPG');
 
                 } 

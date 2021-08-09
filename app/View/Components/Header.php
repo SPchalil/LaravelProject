@@ -9,14 +9,18 @@ class Header extends Component
     public $name;
     public $fruits;
     /**
+    *public $name;
+    *public $fruits;
      * Create a new component instance.
      *
      * @return void
      */
     public function __construct($name, $fruits)
     {
-        $this -> name = $name;
-        $this -> fruits = $fruits;
+        // dd($name);
+        $this->name = $name;
+        $this->fruits = $fruits; 
+        
     }
 
     /**
@@ -29,3 +33,10 @@ class Header extends Component
         return view('components.header');
     }
 }
+/* 
+public function __construct($name, $fruits)
+    {
+        $this -> name = $name;
+        $this -> fruits = $fruits;
+    }
+*/
