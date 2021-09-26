@@ -1,12 +1,28 @@
 <div>
+    <div class="header"> 
+        <h1 > Swapna <strong>ArtGallery </strong></h1>
+        <div class="header-right"> 
+            <h3> Login/Register </h3>
+            <h3> Cart </h3>
+        </div>
+        
+    </div>
     
-    <h1> Swapna ArtGallery </h1>
-<h3> Hello {{$name}} </h3>
-    <h3> fruits are: </h3>
-    <ul>
-        @foreach($fruits as $fruit)
-        <li>{{$fruit}}</li>
-        @endforeach
-    </ul> 
+    <div class="header-second"> 
+        <h3 > HOME </h3>
+        <h3 > ABOUT ME </h3>
+        <h3 > WATERCOLOR </h3>
+        <h3 > OILPAINTINGS </h3>
+        <h3 > ACRYLIC </h3>
+        <h3 > MURAL </h3>
+        <h3 > BOTTLEART </h3>
+        
+        
+    </div>
+
+    <div class="header-image"> 
+        
+    </div>
     
 </div>
+

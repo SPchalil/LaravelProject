@@ -17,12 +17,39 @@
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
-                
+                background-color:#a4e99e;
             }
+            .header{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .header-right{
+                display: flex;
+                flex-direction: row
+                justify-content: space-between;
+                align-items: center;
+            }
+            .header-second{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+
+                background-color:green;
+            }
+            .header-image{
+                width:100%;
+                height: 500px;
+                background-image: url("images/muralArt.jpg");
+                background-position: center;
+                background-size: cover;  
+            } 
         </style>
     </head>
     <body class="antialiased">
-
+            
         <!-- {{$fruits[0]}}
         <x-header name = "Surfside Media" :fruits = "$fruits"/> -->
 
