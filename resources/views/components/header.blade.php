@@ -1,6 +1,6 @@
 <div>
     
-    <h1> This is Header Component </h1>
+    <h1> Swapna ArtGallery </h1>
 <h3> Hello {{$name}} </h3>
     <h3> fruits are: </h3>
     <ul>
